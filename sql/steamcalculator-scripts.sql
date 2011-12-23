@@ -1,21 +1,46 @@
-CREATE TABLE IF NOT EXISTS `sc_steamgameprices` (
-  `appid` int(10) unsigned NOT NULL,
-  `at` mediumint(6) unsigned NOT NULL,
-  `au` mediumint(6) unsigned NOT NULL,
-  `de` mediumint(6) unsigned NOT NULL,
-  `no` mediumint(6) unsigned NOT NULL,
-  `pl` mediumint(6) unsigned NOT NULL,
-  `uk` mediumint(6) unsigned NOT NULL,
-  `us` mediumint(6) unsigned NOT NULL,
-  PRIMARY KEY (`appid`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+SET ANSI_NULLS ON
+GO
 
-CREATE TABLE IF NOT EXISTS `sc_steamgames` (
-  `appid` int(10) unsigned NOT NULL,
-  `title` varchar(250) NOT NULL,
-  `releasedate` int(10) unsigned NOT NULL,
-  `lastupdate` int(10) unsigned NOT NULL,
-  `flags` tinyint(4) unsigned NOT NULL,
-  PRIMARY KEY (`appid`),
-  KEY `title` (`title`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[SteamGame](
+	[GameId] [int] IDENTITY(1,1) NOT NULL,
+	[Title] [varchar](250) NOT NULL,
+	[ReleaseDate] [datetime] NULL,
+	[LastUpdate] [datetime] NULL,
+	[Flags] [int] NULL,
+	[AppId] [int] NULL,
+ CONSTRAINT [PK_SteamGames] PRIMARY KEY CLUSTERED 
+(
+	[GameId] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+CREATE TABLE [dbo].[SteamGamePrice](
+	[PriceId] [int] IDENTITY(1,1) NOT NULL,
+	[Price] [decimal](5, 2) NULL,
+	[RegionCode] [varchar](50) NULL,
+	[GameId] [int] NULL,
+ CONSTRAINT [PK_SteamGamePrices] PRIMARY KEY CLUSTERED 
+(
+	[PriceId] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[SteamGamePrice]  WITH CHECK ADD  CONSTRAINT [FK_SteamGamePrices_SteamGames] FOREIGN KEY([GameId])
+REFERENCES [dbo].[SteamGame] ([GameId])
+GO
+
+ALTER TABLE [dbo].[SteamGamePrice] CHECK CONSTRAINT [FK_SteamGamePrices_SteamGames]
+GO

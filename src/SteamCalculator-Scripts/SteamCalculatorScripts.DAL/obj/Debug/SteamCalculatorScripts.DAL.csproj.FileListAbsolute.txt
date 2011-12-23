@@ -1,0 +1,14 @@
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\SteamCalculatorScripts.DAL.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\SteamCalculatorScripts.DAL.pdb
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\Castle.Core.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\FluentNHibernate.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\Iesi.Collections.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\NHibernate.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\Castle.Core.xml
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\FluentNHibernate.pdb
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\Iesi.Collections.pdb
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\bin\Debug\NHibernate.ByteCode.Castle.xml
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\obj\Debug\SteamCalculatorScripts.DAL.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts.DAL\obj\Debug\SteamCalculatorScripts.DAL.pdb

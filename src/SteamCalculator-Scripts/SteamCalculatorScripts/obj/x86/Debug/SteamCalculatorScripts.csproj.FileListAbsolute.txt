@@ -1,0 +1,17 @@
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\SteamCalculatorScripts.exe.config
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\SteamCalculatorScripts.exe
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\SteamCalculatorScripts.pdb
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\Castle.Core.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\FluentNHibernate.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\Iesi.Collections.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\NHibernate.ByteCode.Castle.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\NHibernate.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\SteamCalculatorScripts.DAL.dll
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\SteamCalculatorScripts.DAL.pdb
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\Castle.Core.xml
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\FluentNHibernate.pdb
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\Iesi.Collections.pdb
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\bin\Debug\NHibernate.ByteCode.Castle.xml
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\obj\x86\Debug\SteamCalculatorScripts.exe
+D:\Development\WebSites\Steam Trades\SteamCalculator-Scripts.net\src\SteamCalculator-Scripts\SteamCalculator-Scripts\obj\x86\Debug\SteamCalculatorScripts.pdb

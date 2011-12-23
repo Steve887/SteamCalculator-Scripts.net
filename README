@@ -8,5 +8,15 @@ This is a fork of the original SteamCalculator Scripts project that has
 been ported to .net and allows the data in the Valve Steam store to be
 parsed and saved into a SQL Server database.
 
-Fluent NHibernate is used for the DAL and the program is run as a console 
-application.
+Fluent NHibernate is used for the DAL, so databases other than SQL Server 2008
+are possible, but you'll either have to update the mappings yourself, or ask
+me very nicely.
+
+The program is run as a console application, so can be set up on a schedule.
+The entire run takes approximately 30 minutes to complete and gets data from all
+the country specific Steam stores.
+
+To install:
+* Create a new SQL Server 2008 database
+* Run the script in the sql folder to create the required tables
+* Add your database details to the App.config file
