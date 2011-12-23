@@ -1,31 +1,12 @@
-SteamCalculator Scripts
+SteamCalculator Scripts.net
 
 
-Source:     http://github.com/spezifanta/SteamCalculator-Scripts
-Projects:   http://www.steamcalculator.com
-            http://www.steamprices.com
+Source:     https://github.com/Steve887/SteamCalculator-Scripts.net
+Original Source: https://github.com/spezifanta/SteamCalculator-Scripts
 
+This is a fork of the original SteamCalculator Scripts project that has
+been ported to .net and allows the data in the Valve Steam store to be
+parsed and saved into a SQL Server database.
 
-SteamCalculator Scripts is written in Perl and will parse Valve's Steam
-store to save all information to a MySQL database.
-
-If you are not a developer or planing to create a new project, that
-might want to use the data these scripts provide, this software might be
-no use for you.
-
-Otherwise, install Perl (5.8.0 or later) und MySQL (do not forget the
-DBI package), import steamclculator-scripts.sql, edit include/config.ini
-to your needs and run getGames.
-
-For any (serious) help, questions, suggestions, feedback or contributions
-please visit
-
-    http://github.com/spezifanta/SteamCalculator-Scripts
-
-or write an email to
-
-    alex@steamcalculator.com
-
-To contribute, start forking.
-
-Thank you.
+Fluent NHibernate is used for the DAL and the program is run as a console 
+application.

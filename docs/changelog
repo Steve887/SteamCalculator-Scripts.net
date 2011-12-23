@@ -1,44 +1,4 @@
-2010-07-10: version 0.3.3
+2011-12:23: version 1.0.0
 
-* now requires Perl 5.8.0
-* renamed getGames.pl to getGames
-* added some comments
-* added usage and help messages
-* added options
-  * added option --clear to clear database
-  * added option --help to show usage
-  * added option --quiet to supress output (*nix only)
-  * added option --output-file to redirect output to a given file
-* removed colors
-* changed layout to max 80 char length
-  * removed #ID column form layout
-
-
-2010-07-08: version 0.3.2
-
-* fixed broken appIDs, caused by inconsistent HTML
-* fixed game titles containing HTML tags
-* updated layout
-* added error log
-* added new column "no" and "pl" to sc_steamprices
-* optimized sc_steamprices
-
-
-2010-03-07: version 0.3.1
-
-* increased parsing speed by 50%(!) - Big thanks to nova (http://www.steamprices.com)
-* added new column "flags" to sc_steamgames
-* fixed dates bying displayed wrong when Valve's date was incomplete or not available
-
-
-2010-03-01: version 0.3.0
-
-* release of 0.3.0
-
-
-...
-
-
-summer 2008: version 0.0.1
-
-* initial release
+* first version of SteamCalculator-Scripts.net
+* porting original perl script to .net
